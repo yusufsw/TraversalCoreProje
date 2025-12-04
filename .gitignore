@@ -1,0 +1,48 @@
+# Build artifacts
+bin/
+obj/
+*/bin/
+*/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+
+# ASP.NET Core publish output
+wwwroot/lib/
+wwwroot/node_modules/
+node_modules/
+dist/
+publish/
+
+# Logs
+*.log
+
+# Resharper, Rider
+_ReSharper*/
+*.[Rr]e[Ss]harper
+.idea/
+
+# Backup & temp
+*.tmp
+*.temp
+*.bak
+
+# OS files
+Thumbs.db
+ehthumbs.db
+.DS_Store
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+
+# dotenv
+*.env
+
+# Cache
+.vscode/
