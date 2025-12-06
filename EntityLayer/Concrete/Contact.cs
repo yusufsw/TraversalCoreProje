@@ -7,16 +7,15 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concrete
 {
-    public class About
+    public class Contact
     {
         [Key]
-        public int AboutID { get; set; }
-        public int Title { get; set; }
+        public int ContactID { get; set; }
         public string Description { get; set; }
-        public string Image1 { get; set; }
-        public string Title2 { get; set; }
-        public string Description2 { get; set; }
+        public string Mail { get; set; }
+        public string Address { get; set; }
+        public string Phone { get; set; }
+        public string MapLocation { get; set; }
         public bool Status { get; set; }
-        //vscode
     }
 }
